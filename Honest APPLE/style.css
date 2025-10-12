@@ -1,0 +1,249 @@
+@font-face {
+    font-family: apple;
+    src: url(../Fonts/sf-pro-text_regular.woff2);
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    
+
+    }
+    
+
+
+html,body {
+    height: 100%;
+    width: 100%;
+
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+
+#main {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(black 97% , white);
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_medium.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#nav {
+    /* font-family: apple; */
+    height: 48px;
+    margin-bottom: 50px ;
+    width: 100%;
+    color: white;
+    display: flex;
+    background-color: rgb(36, 35, 35);
+    align-items: center;
+    justify-content: center;
+    font-weight:lighter;
+    font-size: small;
+    gap: 20px;
+    position: fixed;
+    top: 0%;
+}
+
+#hero {
+    padding: 10px;
+    /* margin-top: 42px; */
+    color: white;
+    font-family:apple;
+    align-items: center;
+    justify-content: fle ;
+
+}
+
+#hero h1{
+    margin-top: 40px;
+    padding-top: 50px ;
+    font-weight:600;
+    font-size: 55px;
+}
+
+#hero h3{
+    font-weight:100;
+    font-size: 25px;
+   
+}
+
+button{
+    color: white;
+    background-color: #0077ED;
+    margin: 10px 3px;
+    border: none;
+    border-radius: 50px;
+    align-items: center;
+    justify-content:center;
+    font-size: medium;
+    gap: 10px;
+} 
+
+.lm {
+    margin-right: 10px;
+    padding: 12px 20px;
+}
+
+.cb {
+    margin-left: 10px;
+    color: #0077ED;
+    padding: 12px 20px;
+    background-color: transparent;
+    border: #0077ED solid 2px;
+
+}
+
+button:hover {
+    background-color: #0077ED;
+    color: white;
+}
+
+#air {
+    height: 100vh;
+    width: 100%;
+    padding-top:60px;
+    color: rgb(37, 35, 35);
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-air/hero_iphone_air__0gxyavihpiqu_medium.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    
+}
+
+.aitext h1{
+    padding: 5px;
+    font-size: 50px;
+    font-weight: 720;
+}
+
+.aitext h3 {
+    padding: 2px;
+    font-size: 23px;
+    font-weight: 100;
+}
+
+#sect {
+    height:100vh;
+    width: 100%;
+    padding-top:60px;
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17/hero_iphone_17__c5vvimu9a20y_medium.jpg);
+    background-size:contain;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+}
+
+#grid {
+    /* height: ; */
+    font-size: 17px;
+    font-weight: 100;
+    text-align: center;
+    display: flex;
+
+
+}
+
+#watch{
+    height: 90vh;
+    width: 50vw;
+    padding: 35px;
+    background-color: #F5F5F7;
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/apple-watch-series-11/promo_apple_watch_series_11__b63hxviqvonm_medium.jpg);
+    background-size:cover;
+    background-position:center;
+    border:15px solid white
+    
+}
+
+
+
+#grid h1 {
+    
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+#grid h4 {
+    padding: 0px;
+    font-weight: 100;
+
+}
+
+.earn {
+     margin-right: 5px;
+    padding: 8px 15px;
+
+}
+
+.cbuy {
+    
+    margin-left: 5pxpx;
+    color: #0077ED;
+    padding: 8px 15px;
+    background-color: transparent;
+    border: #0077ED solid 2px;
+}
+
+
+
+button:hover {
+    
+    background-color: #0077ED;
+    color: white;
+
+}
+
+#pods {
+    height: 90vh;
+    width: 50vw;
+    padding: 35px;
+    background-color: #F5F5F7;
+    background-image: url(https://www.apple.com/v/home/ch/images/promos/macbook-air/promo_macbook_air__fqowrtnxewqe_medium.jpg);
+    background-size:cover;
+    background-position:center;
+    border:15px solid white
+
+
+}
+
+#form{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+
+
+#form button{
+    background: linear-gradient(black , rgb(77, 66, 66) );
+    padding: 15px;
+    cursor:pointer;
+    
+}
+
+#form button:hover{
+    background: radial-gradient(rgb(250, 255, 175) , black) ;
+    color: black;
+    backdrop-filter: blur (10px);
+    /* border: black solid 1px; */
+
+}

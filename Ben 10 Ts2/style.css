@@ -1,0 +1,94 @@
+@font-face {
+  font-family: bot;
+  src: url(../../Fonts/Ndot-55.otf);
+}
+
+@font-face {
+  font-family: ben;
+  src: url(../../Fonts/Asimovian-Regular.ttf);
+}
+
+
+* {
+  margin : 0;
+  padding : 0;
+  box-sizing : border-box; 
+}
+
+
+html, body {
+  height: 100%;       
+  width: 100%;        
+  
+}
+
+body {
+  
+  background-image: url(./omnip.png);
+  background-size: cover;
+  background-position: bottom;
+  
+
+}
+
+#title {
+  color: greenyellow;
+font-family:ben;
+margin: 0px;
+padding: 1px;
+text-align: center;
+font-weight: 2200;
+font-size: 50px;
+}
+
+#ua{
+margin: 23px;
+margin-top: 50px;
+margin-left: 34px;
+padding: 1px;
+border:5px solid greenyellow;
+border-radius: 10px;
+
+}
+
+#all {
+margin: 23px;
+margin-top: 50px;
+margin-left: 680px;
+padding: 1px;
+border:5px solid greenyellow;
+border-radius: 10px;
+  
+}
+
+#run {
+  margin: 10px;
+  margin-top: 25px;
+  margin-left: 475px;
+  border: 3px solid greenyellow;
+  border-radius: 10px;
+
+}
+
+button {
+  font-size: 20px;
+  margin-top: 30px;
+  font-family: bot;
+  font-weight: 7200px;
+  color:#42FF4D;
+  background-color: black;
+  margin: 10px;
+  margin-left: 600px;
+  padding: 8px;
+  border: 3px solid #3AAA46;
+  border-radius: 3px;
+
+
+}
+
+button:hover {
+  background-color: #062400;
+  transform:scale(1.06)
+
+
+}
